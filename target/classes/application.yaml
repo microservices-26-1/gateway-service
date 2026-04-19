@@ -17,11 +17,6 @@ spring:
 
           routes:
 
-            - id: insper
-              uri: https://www.insper.edu.br
-              predicates:
-                - Path=/insper/**
-
             - id: accounts
               uri: http://account:8080 
               predicates:

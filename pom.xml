@@ -10,7 +10,7 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>product-store</groupId>
+	<groupId>product_store</groupId>
 	<artifactId>gateway-service</artifactId>
 	<version>1.0.0</version>
 

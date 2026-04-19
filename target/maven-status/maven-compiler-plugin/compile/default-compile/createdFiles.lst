@@ -1,2 +1,4 @@
+com\example\gateway\security\RouterValidator.class
 com\example\gateway\GatewayApplication.class
+com\example\gateway\security\AuthorizationFilter.class
 com\example\gateway\GatewayResource.class
