@@ -31,3 +31,8 @@ spring:
               uri: http://product:8080
               predicates:
                 - Path=/products/**
+
+            - id: exchange
+              uri: http://exchange:8080
+              predicates:
+                - Path=/exchange/**
