@@ -36,3 +36,13 @@ spring:
               uri: http://exchange:8080
               predicates:
                 - Path=/exchange/**
+
+      metrics:
+        enabled: true
+
+management:
+  endpoints:
+    web:
+      base-path: /gateway/actuator
+      exposure:
+        include: ['prometheus']
